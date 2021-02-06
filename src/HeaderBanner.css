@@ -1,0 +1,25 @@
+.headerbanner{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgrey;
+}
+.headerbanner_list > img {
+    object-fit: contain;
+    height:25px;
+    margin-right: 10px;
+}
+.headerbanner_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerbanner_list > p{
+    font-size: 14px;
+    margin-top: 12px;
+}

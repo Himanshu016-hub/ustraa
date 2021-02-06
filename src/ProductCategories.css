@@ -1,0 +1,21 @@
+.productCateroies{
+    display: flex;
+    flex-direction: row;
+    position: sticky !important;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgrey;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productCateroies > p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.productCateroies > p:hover{
+   color:lightseagreen;
+   border-bottom: 2px solid lightseagreen;
+
+}
