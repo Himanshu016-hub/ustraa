@@ -1,0 +1,46 @@
+{
+    "window.zoomLevel": -1,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+    "emojisense.languages": {
+    
+
+        "markdown": true,
+        "plaintext": {
+            "markupCompletionsEnabled": true,
+            "emojiDecoratorsEnabled": true
+        },
+        "scminput": true,
+        "git-commit": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.suggestSmartCommit": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    
+    "emmet.excludeLanguages": [
+
+
+
+
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.extensionsPath": "",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 400,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "workbench.editorAssociations": [
+    
+    ],
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.mouseWheelZoom": true,
+    "editor.codeActionsOnSave": null
+    
+}
