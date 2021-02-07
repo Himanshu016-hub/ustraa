@@ -1,6 +1,7 @@
 import { Button } from "@material-ui/core";
 import React from "react";
 import Modal from "react-bootstrap/Modal";
+import AddCircleIcon from "@material-ui/icons/AddCircle";
 function MyVerticallyCenteredModal(props) {
   return (
     <Modal
@@ -40,9 +41,9 @@ function Nav() {
 
   return (
     <>
-      <Button variant="secondary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
-      </Button>
+    <div>
+      <AddCircleIcon onClick={() => setModalShow(true)}/>
+    </div>
 
       <MyVerticallyCenteredModal
         show={modalShow}
